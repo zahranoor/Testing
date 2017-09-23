@@ -666,7 +666,7 @@ class Results extends Component{
     console.log('the results in results render: ',results);
     switch(this.state.display){
       case 'list':
-      display=(results.length) ? results : (<div className="no-results-msg">We're sorry - your search for {subd} listings on {today} didn't return any results.</div>);
+      display=(results.length) ? results : (<div className="no-results-msg">We're sorry - your search for {subd} listings on {today} didn't return any results :( :( :(.</div>);
       break;
       case 'map':
       display=map;
